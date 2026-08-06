@@ -3,6 +3,6 @@
 print('====== DESAFIO 02 ======')
 
 nome = input('Nome: ')
-print('Ola ' + nome + '! Prazer em te conhecer!')
+print('Olá ' + nome + '! Prazer em te conhecer!')
 
 print('Prazer em te conhecer, {}!'.format(nome))

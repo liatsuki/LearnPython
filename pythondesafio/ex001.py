@@ -2,7 +2,7 @@
 
 print('====== DESAFIO 01 ======')
 
-print('Ola Mundo!')
+print('Olá Mundo!')
 
 msg = 'Bom Dia!'
 print(msg)
