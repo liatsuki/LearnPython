@@ -2,9 +2,9 @@
 
 print('====== DESAFIO 03 ======')
 
-n1 = int(input("Num 1? "))
-n2 = int(input("Num 2? "))
+n1 = int(input("Num 1: "))
+n2 = int(input("Num 2: "))
 
-soma = n1 + n2
+s = n1 + n2
 
-print('Soma =', soma)
+print('Soma = {}'.format(s))
