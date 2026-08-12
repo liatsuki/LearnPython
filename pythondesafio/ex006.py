@@ -2,10 +2,12 @@
 
 n = int(input('Numero: '))
 
-dobro = n * 2
-triplo = n * 3
-# raiz quadrada
+d = n * 2         # dobro
+t = n * 3         # triplo
+r = n ** (1/2)    # raiz quadrada
 
-print('Dobro = {}'.format(dobro))
-print('Triplo = {}'.format(triplo))
-# raiz quadrada
+print('Dobro = {} \nTriplo = {} \nRaiz quadrada = {:.2}'.format(d, t, r))
+
+print('=== === === ===')
+
+print('Raiz quadrada = {:.2}'.format(pow(n, (1/2)))) # funcao pow

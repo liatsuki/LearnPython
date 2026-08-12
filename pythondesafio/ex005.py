@@ -7,3 +7,7 @@ ant = n - 1
 
 print('Sucessor = {}'.format(suc))
 print('Antecessor = {}'.format(ant))
+
+# OU
+# print('Sucessor = {}'.format(n+1))
+# print('Antecessor = {}'.format(n-1))
