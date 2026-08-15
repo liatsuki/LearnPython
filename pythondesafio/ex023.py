@@ -4,3 +4,10 @@
     # dezena: 3
     # centena: 8
     # milhar: 1
+
+num = (input('Numero: '))
+
+print('unidade: {}'.format(num[3]))
+print('dezena: {}'.format(num[2]))
+print('centena: {}'.format(num[1]))
+print('milhar: {}'.format(num[0]))

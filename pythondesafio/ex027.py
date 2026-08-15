@@ -2,3 +2,9 @@
     # Ex: Ana Maria de Souza
     # primeiro = Ana
     # ultimo = Souza
+
+nome = input('Nome: ')
+
+dividido = nome.split()
+print('primeiro = {}'.format(dividido[0]))
+print('ultimo = {}'.format(dividido[3]))
