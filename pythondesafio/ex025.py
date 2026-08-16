@@ -1,5 +1,5 @@
 # Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome
 
-nome = input('Nome: ')
+nome = str(input('Nome: ')).strip()
 
-print('Silva' in nome)
+print('Silva' in nome.lower())
