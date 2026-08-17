@@ -3,8 +3,8 @@
     # primeiro = Ana
     # ultimo = Souza
 
-nome = input('Nome: ')
+nome = str(input('Nome completo: ')).strip()
 
 dividido = nome.split()
-print('primeiro = {}'.format(dividido[0]))
-print('ultimo = {}'.format(dividido[3]))
+print('primeiro nome = {}'.format(dividido[0]))
+print('ultimo nome = {}'.format(dividido[len(dividido) - 1]))
