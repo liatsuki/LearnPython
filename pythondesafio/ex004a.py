@@ -6,4 +6,4 @@ dia = input('Dia: ')
 mes = input('Mes: ')
 ano = input('Ano: ')
 
-print('Voce nasceu no dia {} de {} de {}. Correto?'.format(dia, mes, ano))
+print('Voce nasceu no dia \033[1;35m{}\033[m de \033[1;33m{}\033[m de \033[1;32m{}\033[m. Correto?'.format(dia, mes, ano))
